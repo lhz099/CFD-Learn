@@ -219,7 +219,7 @@ A comprehensive repository for self-learning fluid dynamics programming
 
 ### PIV / PTV
 
-- [JHU-NI-LAB/OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_Shake-The-Box) - Open-source C++ code for Shake-the-box, particle tracking algorithm. ![C++](logo/cpp.svg) ![MATLAB](logo/MATLAB.svg)
+- [JHU-NI-LAB/OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_GUI) - Open-source C++ code for Shake-the-box, particle tracking algorithm. ![C++](logo/cpp.svg) ![MATLAB](logo/MATLAB.svg)
 - [OpenPTV/openptv](https://github.com/openptv/openptv) - OpenPTV - open source 3D-PTV software. ![C++](logo/cpp.svg)
 - [OpenPIV/openpiv-python](https://github.com/openpiv/openpiv-python) - OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
 - [OpenPTV/pyptv](https://github.com/openptv/pyptv) - Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry. ![Python](logo/Python.svg)
