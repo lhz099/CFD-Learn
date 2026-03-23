@@ -15,7 +15,7 @@ A comprehensive repository for self-learning fluid dynamics programming
   - [Notebooks](#notebooks)
   - [Lecture Series](#lecture-series)
   - [Books](#books)
-- [Meshing](#meshing)
+- [Programming Languages](#programming-languages)
 - [Computational Fluid Dynamics](#computational-fluid-dynamics)
   - [Finite Difference Methods (FDM)](#finite-difference-methods-fdm)
   - [Finite Element Methods (FEM)](#finite-element-methods-fem)
@@ -35,6 +35,7 @@ A comprehensive repository for self-learning fluid dynamics programming
   - [Neural Networks for PDE](#neural-networks-for-pde)
   - [Graphics](#graphics)
   - [Other Techniques](#other-techniques)
+- [Meshing](#meshing)
 - [Experimental Fluid Dynamics](#experimental-fluid-dynamics)
   - [PIV / PTV](#piv--ptv)
   - [ML / Optical Flow](#ml--optical-flow)
@@ -74,16 +75,9 @@ A comprehensive repository for self-learning fluid dynamics programming
 - Thuerey, N., Holl, P., Mueller, M., Schnell, P., Trost, F., & Um, K. (2021). Physics-based Deep Learning. [Book :book:](https://physicsbaseddeeplearning.org/)
 
 
-## Meshing
+### Programming Languages
 
-- [nschloe/optimesh](https://github.com/nschloe/optimesh) - Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
-- [nschloe/pygmsh](https://github.com/nschloe/pygmsh) - Gmsh for Python. ![Python](logo/Python.svg)
-- [nschloe/meshio](https://github.com/nschloe/meshio) - I/O for exhaustive number of mesh file types. ![Python](logo/Python.svg)
-- [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh) - Geometry Processing Library for Python. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
-- [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab) - The open source mesh processing system. ![C++](logo/cpp.svg)
-- [inducer/meshpy](https://github.com/inducer/meshpy) - 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh). ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
-- [gmsh](https://en.wikipedia.org/wiki/Gmsh) - A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg). ![Python](logo/Python.svg) ![julia](logo/julia.svg)
-- [CGAL/cgal](https://github.com/CGAL/cgal) - The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
+- [rantai.dev/academy](https://rantai.dev/academy/) - Comprehensive and complete self-learning resources for scientific computing with Rust.
 
 
 ## Computational Fluid Dynamics
@@ -207,6 +201,18 @@ A comprehensive repository for self-learning fluid dynamics programming
 - [NaluCFD/Nalu](https://github.com/NaluCFD/Nalu) - Nalu: a generalized unstructured massively parallel low Mach flow code designed to support a variety of open applications of interest built on the Sierra Toolkit and Trilinos solver Tpetra solver stack. ![C++](logo/cpp.svg)
 - [lesgo-jhu/lesgo](https://github.com/lesgo-jhu/lesgo) - The Large-Eddy Simulation framework from the Turbulence Research Group at Johns Hopkins University. ![FORTRAN](logo/FORTRAN.svg)
 - [cornellius-gp/gpytorch](https://github.com/cornellius-gp/gpytorch) - A highly efficient and modular implementation of Gaussian Processes in PyTorch. ![Python](logo/Python.svg)
+
+
+## Meshing
+
+- [nschloe/optimesh](https://github.com/nschloe/optimesh) - Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
+- [nschloe/pygmsh](https://github.com/nschloe/pygmsh) - Gmsh for Python. ![Python](logo/Python.svg)
+- [nschloe/meshio](https://github.com/nschloe/meshio) - I/O for exhaustive number of mesh file types. ![Python](logo/Python.svg)
+- [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh) - Geometry Processing Library for Python. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+- [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab) - The open source mesh processing system. ![C++](logo/cpp.svg)
+- [inducer/meshpy](https://github.com/inducer/meshpy) - 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh). ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+- [gmsh](https://en.wikipedia.org/wiki/Gmsh) - A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg). ![Python](logo/Python.svg) ![julia](logo/julia.svg)
+- [CGAL/cgal](https://github.com/CGAL/cgal) - The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
 
 
 ## Experimental Fluid Dynamics
