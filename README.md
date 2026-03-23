@@ -4,7 +4,7 @@ A comprehensive repository for self-learning fluid dynamics programming
 ![Links CI](https://img.shields.io/github/actions/workflow/status/lhz099/CFD-Learn/check_links.yml?label=Links&style=flat-square&labelColor=black) ![License](https://img.shields.io/github/license/lhz099/CFD-Learn?style=flat-square&color=blue&labelColor=000000) ![Last commit](https://img.shields.io/github/last-commit/lhz099/CFD-Learn?style=flat-square&labelColor=000000)
 
 
-![CFD-Learn](logo/logo.svg)
+![CFD-Learn](logo/banner.png)
 
 A curated list of repositories related to fluid dynamics.
 
