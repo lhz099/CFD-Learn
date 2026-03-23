@@ -4,7 +4,7 @@ A comprehensive repository for self-learning fluid dynamics programming
 ![License](https://img.shields.io/github/license/lhz099/CFD-Learn?style=flat-square&color=blue&labelColor=000000) ![Last commit](https://img.shields.io/github/last-commit/lhz099/CFD-Learn?style=flat-square&labelColor=000000)
 
 
-![CFD-Learn](logo/banner.png)
+![CFD-Learn](logo/logo.jpg)
 
 
 *`Please send pull requests or raise issues to improve this list.`*
