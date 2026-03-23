@@ -47,8 +47,6 @@ A curated list of repositories related to fluid dynamics.
   - [Datasets](#datasets)
   - [Benchmarks](#benchmarks)
 - [Reproducibility](#reproducibility)
-- [Community](#community)
-- [Related Topics](#related-topics)
 
 ## Educational
 
