@@ -6,7 +6,6 @@ A comprehensive repository for self-learning fluid dynamics programming
 
 ![CFD-Learn](logo/banner.png)
 
-A curated list of repositories related to fluid dynamics.
 
 *`Please send pull requests or raise issues to improve this list.`*
 
