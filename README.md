@@ -196,7 +196,7 @@ A comprehensive repository for self-learning fluid dynamics programming
 
 ### Rarefied Gas Dynamics (RGD) and Particle Methods
 
-- [Spartan/Spartan](https://github.com/Spartan) - Parallel DSMC (Direct Simulation Monte Carlo) code from Sandia National Laboratories for rarefied gas simulation on Cartesian grids. ![C++](logo/cpp.svg)
+- [Spartan/Spartan](https://github.com/sparta/sparta) - Parallel DSMC (Direct Simulation Monte Carlo) code from Sandia National Laboratories for rarefied gas simulation on Cartesian grids. ![C++](logo/cpp.svg)
 - [MicroNanoFlows/dsmcFoamPlus](https://github.com/MicroNanoFlows) - Open-source DSMC solver developed on OpenFOAM platform. ![C++](logo/cpp.svg)
 - [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) - Open-source library for physics-based fluid simulation using Smoothed Particle Hydrodynamics (SPH). ![C++](logo/cpp.svg)
 
