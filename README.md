@@ -55,6 +55,9 @@ A comprehensive repository for self-learning fluid dynamics programming
 - [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython) - A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes". ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/barbagroup/CFDPython/search?l=jupyter-notebook)
 - [gpeyre/numerical-tours](https://github.com/gpeyre/numerical-tours) - Numerical Tours of Signal Processing and other materials. ![MATLAB](logo/MATLAB.svg) ![Python](logo/Python.svg) ![Jupyter](logo/Jupyter.svg) ![julia](logo/julia.svg) ![R](logo/R.svg)
 - [jfavre/Visualization-training](https://github.com/jfavre/Visualization-training) - The material used for the Scientific Visualization course, organized online by the Swiss National Supercomputing Centre (CSCS) on May 17-18, 2021. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/jfavre/Visualization-training/search?l=jupyter-notebook)
+- [cangyu/CFD-Basics](https://github.com/cangyu/CFD-Basics) - Practice programming the chapters from John D. Anderson's book "Computational Fluid Dynamics: The Basics with Applications". ![Python](logo/Python.svg)
+- [AndreWeiner/ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) - Lecture series and Jupyter notebooks on applying Machine Learning in CFD, including flow control and turbulence modeling. ![Jupyter](logo/Jupyter.svg)
+- [NayanthaNethsara/parallel-101](https://github.com/NayanthaNethsara/parallel-101) - Starter code for learning parallel programming with OpenMP, MPI, and CUDA. ![C++](logo/cpp.svg)
 
 ### Lecture Series
 
@@ -73,6 +76,8 @@ A comprehensive repository for self-learning fluid dynamics programming
 - Brunton, S., & Kutz, J. (2019). Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control. Cambridge: Cambridge University Press. [DOI :memo:](https://doi.org/10.1017/9781108380690) [Book :book:](http://databookuw.com/)
 - Castro, I. P., & Vanderwel, C. (2021). Turbulent Flows: An Introduction. IOP Publishing. [DOI :memo:](https://doi.org/10.1088/978-0-7503-3619-2) [Book :book:](https://github.com/cvanderwel/TurbulentFlows)
 - Thuerey, N., Holl, P., Mueller, M., Schnell, P., Trost, F., & Um, K. (2021). Physics-based Deep Learning. [Book :book:](https://physicsbaseddeeplearning.org/)
+- Ferziger, J. H., Perić, M., & Street, R. L. (2020). Computational Methods for Fluid Dynamics. [Book :book:](http://www.cfd-peric.de/) - Classic book on Finite Volume Method (FVM) and SIMPLE/Fractional Step algorithms.
+- Versteeg, H. K., & Malalasekera, W. (2007). An Introduction to Computational Fluid Dynamics: The Finite Volume Method. [Book :book:](https://www.researchgate.net/profile/Ghassan-Smaisim/post/FEM_mesh_generator/attachment/59d655b479197b80779acc78/AS%3A526908706508800%401502636233004/download/110+Versteeg+2007+an+introduction+to+computational+fluid+dynamics+the+finite+volume+method+2nd+edition.pdf) - The most basic material on FVM for beginners.
 
 
 ### Programming Languages
@@ -165,6 +170,8 @@ A comprehensive repository for self-learning fluid dynamics programming
 ### Coupling
 
 - [precice/precice](https://github.com/precice/precice) - A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. ![C++](logo/cpp.svg)
+- [CFDEMproject/CFDEMcoupling-PUBLIC](https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC) - Open-source framework coupling OpenFOAM (CFD) and LIGGGHTS (DEM) for particle flow simulation. ![C++](logo/cpp.svg)
+- [code-mphi/ECOGEN](https://github.com/code-mphi/ECOGEN) - Dedicated open-source platform for compressible multiphase flow simulations. ![C++](logo/cpp.svg)
 
 ### Chemical Kinetics
 
@@ -181,6 +188,18 @@ A comprehensive repository for self-learning fluid dynamics programming
 - [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow) - A differentiable PDE solving framework for machine learning. ![Python](logo/Python.svg)
 - [google/jax-cfd](https://github.com/google/jax-cfd) - Computational Fluid Dynamics in JAX. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/google/jax-cfd/search?l=jupyter-notebook)
 
+### High-order Methods (FR/DG/SD)
+
+- [PyFR/PyFR](https://github.com/PyFR/PyFR) - Python-based framework for solving Navier-Stokes equations using Flux Reconstruction (FR) method on various hardware architectures (GPU/CPU). ![Python](logo/Python.svg)
+- [HiFiLES/HiFiLES-solver](https://github.com/HiFiLES/HiFiLES-solver) - High-order compressible flow solver for unstructured meshes, optimized for GPU architectures. ![C++](logo/cpp.svg)
+- [nasa/GFR](https://github.com/nasa/GFR) - (Glenn Flux Reconstruction) High-order Fortran code for large eddy simulation (LES). ![FORTRAN](logo/FORTRAN.svg)
+
+### Rarefied Gas Dynamics (RGD) and Particle Methods
+
+- [Spartan/Spartan](https://github.com/Spartan/Spartan) - Parallel DSMC (Direct Simulation Monte Carlo) code from Sandia National Laboratories for rarefied gas simulation on Cartesian grids. ![C++](logo/cpp.svg)
+- [MicroNanoFlows/dsmcFoamPlus](https://github.com/MicroNanoFlows/dsmcFoamPlus) - Open-source DSMC solver developed on OpenFOAM platform. ![C++](logo/cpp.svg)
+- [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) - Open-source library for physics-based fluid simulation using Smoothed Particle Hydrodynamics (SPH). ![C++](logo/cpp.svg)
+
 ### Neural Networks for PDE
 
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) - Deep learning library for solving differential equations and more. ![Python](logo/Python.svg)
@@ -188,6 +207,10 @@ A comprehensive repository for self-learning fluid dynamics programming
 - [google/neural-tangents](https://github.com/google/neural-tangents) - Fast and Easy Infinite Neural Networks in Python. ![Python](logo/Python.svg)
 - [isl-org/DeepLagrangianFluids](https://github.com/isl-org/DeepLagrangianFluids) - Lagrangian Fluid Simulation with Continuous Convolutions. ![Python](logo/Python.svg)
 - [maxjiang93/space_time_pde](https://github.com/maxjiang93/space_time_pde) - MeshfreeFlowNet: Physical Constrained Space Time Super-Resolution. ![Python](logo/Python.svg)
+- [mathLab/PINA](https://github.com/mathLab/PINA) - Python library based on PyTorch for solving theoretical problems using Physics-Informed Neural Networks (PINNs) and Neural Operators. ![Python](logo/Python.svg)
+- [echowve/meshGraphNets_pytorch](https://github.com/echowve/meshGraphNets_pytorch) - PyTorch Geometric implementation of DeepMind's MeshGraphNets for learning mesh-based physical simulations. ![Python](logo/Python.svg)
+- [VikVador/FourierFlow](https://github.com/VikVador/FourierFlow) - Library implementing Fourier Neural Operator (FNO) and variants for fast Navier-Stokes equation solving. ![Python](logo/Python.svg)
+- [katiana22/latent-deeponet](https://github.com/katiana22/latent-deeponet) - Implementation of DeepONet model for learning nonlinear operators in latent space. ![Python](logo/Python.svg)
 
 ### Graphics
 
@@ -196,12 +219,15 @@ A comprehensive repository for self-learning fluid dynamics programming
 
 ### Other Techniques
 
-- [PyFR/PyFR](https://github.com/PyFR/PyFR) - Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
 - [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) - A high-order finite-difference code for compressible hydrodynamic flows with magnetic fields and particles. ![FORTRAN](logo/FORTRAN.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/pencil-code/pencil-code/search?l=jupyter-notebook)
 - [NaluCFD/Nalu](https://github.com/NaluCFD/Nalu) - Nalu: a generalized unstructured massively parallel low Mach flow code designed to support a variety of open applications of interest built on the Sierra Toolkit and Trilinos solver Tpetra solver stack. ![C++](logo/cpp.svg)
 - [lesgo-jhu/lesgo](https://github.com/lesgo-jhu/lesgo) - The Large-Eddy Simulation framework from the Turbulence Research Group at Johns Hopkins University. ![FORTRAN](logo/FORTRAN.svg)
 - [cornellius-gp/gpytorch](https://github.com/cornellius-gp/gpytorch) - A highly efficient and modular implementation of Gaussian Processes in PyTorch. ![Python](logo/Python.svg)
 
+### Parallel Programming (HPC)
+
+- [csc-training/hybrid-openmp-mpi](https://github.com/csc-training/hybrid-openmp-mpi) - Exercise materials on hybrid programming combining MPI and OpenMP from CSC. ![FORTRAN](logo/FORTRAN.svg)
+- [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) - Official NVIDIA CUDA code samples, including many scientific computing examples. ![C++](logo/cpp.svg)
 
 ## Meshing
 
@@ -275,6 +301,9 @@ A comprehensive repository for self-learning fluid dynamics programming
 
 - [shengzesnail/PIV_dataset](https://github.com/shengzesnail/PIV_dataset) - PIV dataset. ![MATLAB](logo/MATLAB.svg)
 - [idies/pyJHTDB](https://github.com/idies/pyJHTDB) - Python wrapper for the Johns Hopkins turbulence database library. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
+- [tmbwg/turbmodels](https://tmbwg.github.io/turbmodels/) - Global standard database for verification and validation of RANS turbulence models.
+- [ercoftac](https://www.ercoftac.org/products_and_services/classic_collection_database/) - Library of classic test cases for turbulence and combustion, including experimental data and DNS.
+- [Baskargroup/FlowBench](https://huggingface.co/datasets/Baskargroup/FlowBench) - Standard 3D Lid-Driven Cavity dataset for training Machine Learning models in CFD. ![Python](logo/Python.svg)
 
 ### Benchmarks
 
