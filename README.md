@@ -303,7 +303,7 @@ A comprehensive repository for self-learning fluid dynamics programming
 - [idies/pyJHTDB](https://github.com/idies/pyJHTDB) - Python wrapper for the Johns Hopkins turbulence database library. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
 - [tmbwg/turbmodels](https://tmbwg.github.io/turbmodels/) - Global standard database for verification and validation of RANS turbulence models.
 - [ercoftac](https://www.ercoftac.org/products_and_services/classic_collection_database/) - Library of classic test cases for turbulence and combustion, including experimental data and DNS.
-- [Baskargroup/FlowBench](https://huggingface.co/datasets/Baskargroup/FlowBench) - Standard 3D Lid-Driven Cavity dataset for training Machine Learning models in CFD. ![Python](logo/Python.svg)
+- [Baskargroup/FlowBench](https://github.com/baskargroup/flowbench-tools) - Standard 3D Lid-Driven Cavity dataset for training Machine Learning models in CFD. ![Python](logo/Python.svg)
 
 ### Benchmarks
 
